@@ -1,0 +1,84 @@
+***Data type
+	Primitive types:
+	- number
+	- string ... console.log('Hello, I\'m Dung');
+	- boolean
+	
+	Specical types:
+	- null
+	- undefined
+	
+	Reference types:
+	- array
+	- object
+	
+***Arithmetic Operators
+	1. ++ -- (increment decrement)
+	2. * / %
+	3. + -
+	
+***Assigment operators
+	4. =	+=	-=	*=	/=
+	
+***Object methods
+	var myDog = {
+		weight: 5,
+		name: 'Leo',
+		bark: function() {	//function mà ko biết tên được gọi là anonymous function
+			console.log('Meo meo...');
+		}
+	};
+
+***Phép so sánh
+	1. ==
+	2. !=
+	
+***Vòng lặp for
+	1. for ... of
+	2. for ... in
+
+
+***Methods của Array
+	1. a.concat(b) ===> lối 2 mảng vs nhau
+	2. a.push(b) ===> thêm phần tử mới vào mảng ở vị trí cuối cùng
+	3. a.pop() ===> lấy ra phân tử cuối cùng và thay đổi mảng
+	4. a.shift() ===> đẩy phẩn tử đầu tiên ra khỏi mảng và thay đổi mảng
+	5. a.unshift() ===> thêm 1 phần tử vào đầu mảng
+	6. a.slice ===>
+	7. a.splice(i, 1) ===> xóa 1 phần tử có index = i
+
+***Callback
+
+***array.map
+	- dùng để chuyển đổi từ 1 mảng này sang mảng khác thông qua tranform function
+	- map sẽ trả về giá trị mới
+
+***array.filter
+	- filter có nhiệm vụ lọc ra những phần tử ko thỏa mãn yêu cầu và chỉ cho những
+	phần tử thỏa mãn đi qua
+	- filter sẽ trả về true hoặc false
+	
+***array.find
+	- Gần giống filter khi find cũng sẽ lọc qua các phần tử trong mảng nếu phần nào
+	thỏa mãn điều kiện thì sẽ được trả về (sau khi tìm được phần tử thỏa mãn thì find
+	sẽ dừng lại và không duyệt tiếp tục phần tử nào nữa)
+	- find sẽ trả về 1 phần tử hoặc 0 phần tử nào thỏa mãn
+	
+***array.reduce
+	- reduce sẽ lấy 2 phần tử đầu tiền rồi đưa vào 1 function nào đó rồi cho ra kết quả
+	và kết quả này sẽ được tiếp tục kết hợp với phần tử kế tiếp để cho ra kết quả tiếp
+	(quá trình này sẽ lặp lại cho đến khi tới phần tử cuối cùng và kết quả cho ra sẽ là
+	kết quả cuối cùng)
+	- init thông thường sẽ được chọn dựa trên kết quả cuối cùng mà chúng ta muốn ra (theo
+	kiểu dữ liệu)
+	
+***array.sort
+	
+
+
+
+
+
+
+
+
