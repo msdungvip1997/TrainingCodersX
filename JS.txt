@@ -72,7 +72,20 @@
 	- init thông thường sẽ được chọn dựa trên kết quả cuối cùng mà chúng ta muốn ra (theo
 	kiểu dữ liệu)
 	
-***array.sort
+***array.sort(function(a, b) {})
+	- sort method sẽ trả về 1 mảng đã được sắp xếp
+	- Quy tắc 1 là nếu sort function trả về giá trị < 0 thì a sẽ được sắp xếp ở trước b
+	- Quy tắc 2 là nếu sort function trả về giá trị > 0 thì a sẽ được xếp sau b
+	- Quy tắc 3 là nếu sort function trả về giá trị = 0 thì a và b sẽ không hoán đổi vị trí
+
+***Math object
+	1. Math.PI
+	2. Math.ceil(number) ===> làm tròn số lên
+	3. Math.floor(number) ===> làm tròn số xuống
+	4. Math.round(number)
+	5. Math.max(x1, x2, ...) ===> trả về thằng max
+	6. Math.min(x1, x2, ...) ===> trả về thằng min
+	7. Math.random() ===>
 	
 
 
