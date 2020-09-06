@@ -87,6 +87,17 @@
 	6. Math.min(x1, x2, ...) ===> trả về thằng min
 	7. Math.random() ===>
 	
+***`new` keyword
+
+***propotypes
+	- Sử dụng để tạo ra 1 hàm chung mà khi các object được tạo ra bởi constructor thì nó sẽ chỉ tới
+	hàm này ===> tác dụng giúp tiếp kiệm bộ nhớ vì nếu không dùng protorype mà tạo 1 hàm trong constructor
+	thì khi tạo mới 1 object, chúng ta sẽ đồng thời khởi tạo ra 1 hàm ở bộ nhớ cho mỗi 1 object.
+	
+***Node build-in modules
+	- Là những modules có sẵn đã được build trong Nodejs ====== https://nodejs.org/dist/latest-v8.x/docs/api/path.html#path_path_extname_path
+	
+***npm - Node package manager
 
 
 
