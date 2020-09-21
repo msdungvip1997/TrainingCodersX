@@ -113,6 +113,9 @@
 	-- JSON.stringify(object) ===> Chuyển đổi từ 1 object sang JSON string
 	-- JSON.parse(JSONstring) ===> Chuyển đổi từ JSON string sang dạng object
 
+***Ternary operator
+	-- Được dùng để thay thế cho if-else, nhưng cũng không hay được dùng
+	-- Là toán tử 3 ngôi
 
 
 
